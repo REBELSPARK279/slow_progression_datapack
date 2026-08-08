@@ -1,0 +1,153 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": "Blingy",
+    "description": "Craft all diamond tools and armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "slow_progression:progression/iron_age",
+  "criteria": {
+    "diamond_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_sword"
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_pickaxe"
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_axe"
+          }
+        ]
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_shovel"
+          }
+        ]
+      }
+    },
+    "diamond_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_hoe"
+          }
+        ]
+      }
+    },
+    "diamond_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_spear"
+          }
+        ]
+      }
+    },
+    "diamond_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_helmet"
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_chestplate"
+          }
+        ]
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_leggings"
+          }
+        ]
+      }
+    },
+    "diamond_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:diamond_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["diamond_sword"],
+    ["diamond_pickaxe"],
+    ["diamond_axe"],
+    ["diamond_shovel"],
+    ["diamond_hoe"],
+    ["diamond_spear"],
+    ["diamond_helmet"],
+    ["diamond_chestplate"],
+    ["diamond_leggings"],
+    ["diamond_boots"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:netherite_sword_smithing",
+      "slow_progression:netherite_pickaxe_smithing",
+      "slow_progression:netherite_axe_smithing",
+      "slow_progression:netherite_shovel_smithing",
+      "slow_progression:netherite_hoe_smithing",
+      "slow_progression:netherite_spear_smithing",
+      "slow_progression:netherite_helmet_smithing",
+      "slow_progression:netherite_chestplate_smithing",
+      "slow_progression:netherite_leggings_smithing",
+      "slow_progression:netherite_boots_smithing",
+      "slow_progression:netherite_horse_armor_smithing",
+      "slow_progression:netherite_nautilus_armor_smithing"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sgs",
+    "sss"
+  ],
+  "key": {
+    "g": "minecraft:golden_apple",
+    "s": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple"
+  }
+}

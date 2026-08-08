@@ -1,0 +1,173 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "Ironclad",
+    "description": "Obtain all iron tools and armor, as well as a shield",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "slow_progression:progression/copper_age",
+  "criteria": {
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_sword"
+          }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_pickaxe"
+          }
+        ]
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_axe"
+          }
+        ]
+      }
+    },
+    "iron_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_shovel"
+          }
+        ]
+      }
+    },
+    "iron_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_hoe"
+          }
+        ]
+      }
+    },
+    "iron_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_spear"
+          }
+        ]
+      }
+    },
+    "iron_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_helmet"
+          }
+        ]
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_chestplate"
+          }
+        ]
+      }
+    },
+    "iron_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_leggings"
+          }
+        ]
+      }
+    },
+    "iron_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:iron_boots"
+          }
+        ]
+      }
+    },
+    "shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:shield"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["iron_sword"],
+    ["iron_pickaxe"],
+    ["iron_axe"],
+    ["iron_shovel"],
+    ["iron_hoe"],
+    ["iron_spear"],
+    ["iron_helmet"],
+    ["iron_chestplate"],
+    ["iron_leggings"],
+    ["iron_boots"],
+    ["shield"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:golden_sword",
+      "slow_progression:golden_pickaxe",
+      "slow_progression:golden_axe",
+      "slow_progression:golden_shovel",
+      "slow_progression:golden_hoe",
+      "slow_progression:golden_spear",
+      "slow_progression:golden_helmet",
+      "slow_progression:golden_chestplate",
+      "slow_progression:golden_leggings",
+      "slow_progression:golden_boots",
+      "slow_progression:diamond_sword",
+      "slow_progression:diamond_pickaxe",
+      "slow_progression:diamond_axe",
+      "slow_progression:diamond_shovel",
+      "slow_progression:diamond_hoe",
+      "slow_progression:diamond_spear",
+      "slow_progression:diamond_helmet",
+      "slow_progression:diamond_chestplate",
+      "slow_progression:diamond_leggings",
+      "slow_progression:diamond_boots"
+    ]
+  }
+}

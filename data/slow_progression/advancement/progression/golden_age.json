@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_nugget"
+    },
+    "title": "Gold Rush",
+    "description": "Craft all golden tools and armor, as well as a gapple",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "slow_progression:progression/iron_age",
+  "criteria": {
+    "golden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_sword"
+          }
+        ]
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_pickaxe"
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_axe"
+          }
+        ]
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_shovel"
+          }
+        ]
+      }
+    },
+    "golden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_hoe"
+          }
+        ]
+      }
+    },
+    "golden_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_spear"
+          }
+        ]
+      }
+    },
+    "golden_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_helmet"
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_chestplate"
+          }
+        ]
+      }
+    },
+    "golden_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_leggings"
+          }
+        ]
+      }
+    },
+    "golden_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_boots"
+          }
+        ]
+      }
+    },
+    "gapple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:golden_apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["golden_sword"],
+    ["golden_pickaxe"],
+    ["golden_axe"],
+    ["golden_shovel"],
+    ["golden_hoe"],
+    ["golden_spear"],
+    ["golden_helmet"],
+    ["golden_chestplate"],
+    ["golden_leggings"],
+    ["golden_boots"],
+    ["gapple"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:egap"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sbs",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "s": "minecraft:iron_ingot",
+    "b": "minecraft:iron_block",
+    "I": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:iron_pickaxe"
+  }
+}

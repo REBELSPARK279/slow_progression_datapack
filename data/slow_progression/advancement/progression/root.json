@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wooden_pickaxe"
+    },
+    "title": "Basic Tools",
+    "description": "Craft all the wooden tools",
+    "background": "minecraft:block/bamboo_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "wooden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:wooden_sword"
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:wooden_pickaxe"
+          }
+        ]
+      }
+    },
+    "wooden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:wooden_axe"
+          }
+        ]
+      }
+    },
+    "wooden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:wooden_shovel"
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:wooden_hoe"
+          }
+        ]
+      }
+    },
+    "wooden_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:wooden_spear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["wooden_sword"],
+    ["wooden_pickaxe"],
+    ["wooden_axe"],
+    ["wooden_shovel"],
+    ["wooden_hoe"],
+    ["wooden_spear"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:stone_sword",
+      "slow_progression:stone_pickaxe",
+      "slow_progression:stone_axe",
+      "slow_progression:stone_shovel",
+      "slow_progression:stone_hoe",
+      "slow_progression:stone_spear"
+    ]
+  }
+}

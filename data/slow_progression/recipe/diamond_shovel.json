@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "s": "minecraft:diamond_block",
+    "I": "minecraft:iron_bars"
+  },
+  "result": {
+    "id": "minecraft:diamond_shovel"
+  }
+}

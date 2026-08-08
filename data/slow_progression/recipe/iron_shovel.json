@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "b": "minecraft:iron_block",
+    "I": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:iron_shovel"
+  }
+}

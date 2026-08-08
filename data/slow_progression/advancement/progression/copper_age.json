@@ -1,0 +1,165 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": "Copper Age",
+    "description": "Craft all copper tools and armor, as well as a bucket",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "slow_progression:progression/stone_age",
+  "criteria": {
+    "copper_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_sword"
+          }
+        ]
+      }
+    },
+    "copper_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_pickaxe"
+          }
+        ]
+      }
+    },
+    "copper_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_axe"
+          }
+        ]
+      }
+    },
+    "copper_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_shovel"
+          }
+        ]
+      }
+    },
+    "copper_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_hoe"
+          }
+        ]
+      }
+    },
+    "copper_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_spear"
+          }
+        ]
+      }
+    },
+    "copper_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_helmet"
+          }
+        ]
+      }
+    },
+    "copper_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_chestplate"
+          }
+        ]
+      }
+    },
+    "copper_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_leggings"
+          }
+        ]
+      }
+    },
+    "copper_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:copper_boots"
+          }
+        ]
+      }
+    },
+    "bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["copper_sword"],
+    ["copper_pickaxe"],
+    ["copper_axe"],
+    ["copper_shovel"],
+    ["copper_hoe"],
+    ["copper_spear"],
+    ["copper_helmet"],
+    ["copper_chestplate"],
+    ["copper_leggings"],
+    ["copper_boots"],
+    ["bucket"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:iron_sword",
+      "slow_progression:iron_pickaxe",
+      "slow_progression:iron_axe",
+      "slow_progression:iron_shovel",
+      "slow_progression:iron_hoe",
+      "slow_progression:iron_spear",
+      "slow_progression:iron_helmet",
+      "slow_progression:iron_chestplate",
+      "slow_progression:iron_leggings",
+      "slow_progression:iron_boots",
+      "slow_progression:shield",
+      "minecraft:iron_bars"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ss ",
+    "sI ",
+    " I "
+  ],
+  "key": {
+    "s": "minecraft:cobblestone",
+    "I": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:stone_axe"
+  }
+}

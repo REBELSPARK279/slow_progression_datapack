@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
+    },
+    "title": "Stone Warrior",
+    "description": "Obtain every stone tool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "slow_progression:progression/root",
+  "criteria": {
+    "stone_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:stone_sword"
+          }
+        ]
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:stone_pickaxe"
+          }
+        ]
+      }
+    },
+    "stone_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:stone_axe"
+          }
+        ]
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:stone_shovel"
+          }
+        ]
+      }
+    },
+    "stone_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:stone_hoe"
+          }
+        ]
+      }
+    },
+    "stone_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:stone_spear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["stone_sword"],
+    ["stone_pickaxe"],
+    ["stone_axe"],
+    ["stone_shovel"],
+    ["stone_hoe"],
+    ["stone_spear"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:copper_sword",
+      "slow_progression:copper_pickaxe",
+      "slow_progression:copper_axe",
+      "slow_progression:copper_shovel",
+      "slow_progression:copper_hoe",
+      "slow_progression:copper_spear",
+      "slow_progression:copper_helmet",
+      "slow_progression:copper_chestplate",
+      "slow_progression:copper_leggings",
+      "slow_progression:copper_boots"
+    ]
+  }
+}

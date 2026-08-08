@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sb ",
+    "sI ",
+    " I "
+  ],
+  "key": {
+    "s": "minecraft:gold_ingot",
+    "b": "minecraft:gold_block",
+    "I": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:golden_axe"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bb ",
+    "sI ",
+    " I "
+  ],
+  "key": {
+    "s": "minecraft:diamond",
+    "b": "minecraft:diamond_block",
+    "I": "minecraft:iron_bars"
+  },
+  "result": {
+    "id": "minecraft:diamond_axe"
+  }
+}
