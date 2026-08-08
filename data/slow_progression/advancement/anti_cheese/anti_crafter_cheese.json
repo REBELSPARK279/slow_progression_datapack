@@ -1,13 +1,15 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:air"
+      "id": "minecraft:barrier"
     },
     "title": "No cheese!",
     "description": "Get blocked by the anti-cheese",
     "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": false
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "parent": "slow_progression:anti_cheese/root"
   },
   "criteria": {
     "crafter": {
@@ -15,7 +17,8 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crafter"
+            "items":
+            "minecraft:crafter"
           }
         ]
       }
@@ -25,6 +28,6 @@
     ["crafter"]
   ],
   "rewards": {
-    "function"
+    "function": "slow_progression:anti_crafter_cheese"
   }
 }

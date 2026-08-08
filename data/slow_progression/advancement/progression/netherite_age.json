@@ -1,0 +1,144 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": "The End..?",
+    "description": "Craft all netherite tools and armor - get to the end of the progression",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "slow_progression:progression/diamond_age",
+  "criteria": {
+    "netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_sword"
+          }
+        ]
+      }
+    },
+    "netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_pickaxe"
+          }
+        ]
+      }
+    },
+    "netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_axe"
+          }
+        ]
+      }
+    },
+    "netherite_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_shovel"
+          }
+        ]
+      }
+    },
+    "netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_hoe"
+          }
+        ]
+      }
+    },
+    "netherite_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_spear"
+          }
+        ]
+      }
+    },
+    "netherite_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_helmet"
+          }
+        ]
+      }
+    },
+    "netherite_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_chestplate"
+          }
+        ]
+      }
+    },
+    "netherite_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_leggings"
+          }
+        ]
+      }
+    },
+    "netherite_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:netherite_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["netherite_sword"],
+    ["netherite_pickaxe"],
+    ["netherite_axe"],
+    ["netherite_shovel"],
+    ["netherite_hoe"],
+    ["netherite_spear"],
+    ["netherite_helmet"],
+    ["netherite_chestplate"],
+    ["netherite_leggings"],
+    ["netherite_boots"]
+  ],
+  "rewards": {
+    "recipes": [
+      "slow_progression:beacon",
+      "slow_progression:shulker_box",
+      "slow_progression:crafter"
+    ]
+  }
+}

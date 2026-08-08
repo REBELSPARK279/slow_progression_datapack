@@ -4,7 +4,7 @@
       "id": "minecraft:stone_axe"
     },
     "title": "Stone Warrior",
-    "description": "Obtain every stone tool",
+    "description": "Obtain every stone tool and a furnace",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
@@ -76,6 +76,17 @@
           }
         ]
       }
+    },
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":
+            "minecraft:furnace"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -84,7 +95,8 @@
     ["stone_axe"],
     ["stone_shovel"],
     ["stone_hoe"],
-    ["stone_spear"]
+    ["stone_spear"],
+    ["furnace"]
   ],
   "rewards": {
     "recipes": [

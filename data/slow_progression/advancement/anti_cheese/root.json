@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": "No cheese!",
+    "description": "Get blocked by the anti-cheese",
+    "background": "minecraft:block/barrier",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "one": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["one"]
+  ]
+}
