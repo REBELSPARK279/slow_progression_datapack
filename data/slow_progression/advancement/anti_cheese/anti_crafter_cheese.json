@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:air"
+    },
+    "title": "No cheese!",
+    "description": "Get blocked by the anti-cheese",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crafter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["crafter"]
+  ],
+  "rewards": {
+    "function"
+  }
+}
