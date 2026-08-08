@@ -1,0 +1,1 @@
+execute as @a[scores={recipes=1..}] run function slow_progression:recipes
